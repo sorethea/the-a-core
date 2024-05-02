@@ -2,8 +2,6 @@
 
 namespace Sorethea\Core\Resources;
 
-use App\Filament\Resources\UserResource\Pages;
-use App\Filament\Resources\UserResource\RelationManagers;
 use App\Models\User;
 use BezhanSalleh\FilamentShield\Contracts\HasShieldPermissions;
 use BezhanSalleh\FilamentShield\Support\Utils;
@@ -18,7 +16,10 @@ class UserResource extends Resource implements HasShieldPermissions
 {
     protected static ?string $model = User::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-users';
+    public static function getNavigationIcon(): string
+    {
+        return config("the-a-core.icons.users");
+    }
 
     public static function form(Form $form): Form
     {
