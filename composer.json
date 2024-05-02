@@ -22,6 +22,7 @@
         }
     ],
     "minimum-stability": "dev",
+    "prefer-stable": false,
     "require": {
         "filament/filament": "3.2",
         "bezhansalleh/filament-shield": "3.2",
