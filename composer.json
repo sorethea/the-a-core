@@ -25,8 +25,7 @@
     "require": {
         "filament/filament": "3.2",
         "bezhansalleh/filament-shield": "3.2",
-        "jeffgreco13/filament-breezy": "1.5",
-        "3x1io/filament-user": "1.1",
+        "jeffgreco13/filament-breezy": "2.4",
         "pxlrbt/filament-activity-log": "1.1"
     }
 }
