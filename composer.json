@@ -24,6 +24,9 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-
+        "filament/filament": "^3.2.72",
+        "bezhansalleh/filament-shield": "^3.2.4",
+        "jeffgreco13/filament-breezy": "^2.4.0",
+        "pxlrbt/filament-activity-log": "^1.1.1"
     }
 }
