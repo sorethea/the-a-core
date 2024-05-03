@@ -22,11 +22,8 @@
         }
     ],
     "minimum-stability": "dev",
-    "prefer-stable": false,
+    "prefer-stable": true,
     "require": {
-        "filament/filament": "3.2",
-        "bezhansalleh/filament-shield": "3.2",
-        "jeffgreco13/filament-breezy": "2.4",
-        "pxlrbt/filament-activity-log": "1.1"
+
     }
 }
