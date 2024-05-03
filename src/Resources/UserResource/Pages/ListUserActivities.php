@@ -2,10 +2,10 @@
 
 namespace Sorethea\Core\Resources\UserResource\Pages;
 
-use Filament\Resources\Pages\CreateRecord;
+use pxlrbt\FilamentActivityLog\Pages\ListActivities;
 use Sorethea\Core\Resources\UserResource;
 
-class CreateUser extends CreateRecord
+class ListUserActivities extends ListActivities
 {
     protected static string $resource = UserResource::class;
 }
