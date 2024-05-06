@@ -8,7 +8,7 @@ use Sorethea\Core\Policies\RolePolicy;
 use Sorethea\Core\Policies\UserPolicy;
 use Spatie\Permission\Models\Role;
 
-class AuthServiceProvider extends ServiceProvider
+class AuthCoreServiceProvider extends ServiceProvider
 {
 
     protected $policies = [
