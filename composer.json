@@ -11,6 +11,7 @@
     "extra": {
         "laravel": {
             "providers": [
+                "Sorethea\\Core\\AuthServiceProvider",
                 "Sorethea\\Core\\CoreServiceProvider"
             ]
         }

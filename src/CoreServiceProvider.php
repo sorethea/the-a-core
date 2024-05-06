@@ -16,10 +16,4 @@ class CoreServiceProvider extends PackageServiceProvider
             ->hasTranslations()
             ->hasViews();
     }
-    public function provides(): array
-    {
-        return [
-            AuthServiceProvider::class,
-        ];
-    }
 }
